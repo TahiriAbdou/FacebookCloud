@@ -13,6 +13,10 @@ class GifsController extends Controller
     	return view('gifs.index');
     }
 
+    public function create(){
+    	return view('gifmaker.create');
+    }
+
     public function datatable(){
     	return [];
     }
