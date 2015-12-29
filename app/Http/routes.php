@@ -12,7 +12,7 @@ Route::group(['prefix'=>'facebook'],function(){
 });
 
 Route::get('',function(){
-    return redirect('auth/dashboard');
+    return redirect('dashboard');
 });
 
 Route::get('sharer',function(){
