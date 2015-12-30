@@ -15,6 +15,8 @@ Route::get('',function(){
     return redirect('dashboard');
 });
 
+Route::get('pages/{slug}','HomeController@pages');
+
 Route::get('sharer',function(){
     return view('sharer.test');
 });

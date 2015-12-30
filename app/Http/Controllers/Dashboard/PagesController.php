@@ -101,6 +101,10 @@ class PagesController extends Controller
         return redirect('dashboard/pages');
     }
 
+    public function getPrivacy(){
+        return 'privacy';
+    }
+
 
     public function datatable()
     {
